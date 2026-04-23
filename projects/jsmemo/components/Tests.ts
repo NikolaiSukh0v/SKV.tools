@@ -1,0 +1,1 @@
+const currentScore = 0;
