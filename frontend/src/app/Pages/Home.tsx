@@ -3,6 +3,9 @@ import CodePreview from '../components/CodePreview';
 import { Code2, Cpu, Sparkles, Database, Zap, Terminal } from 'lucide-react';
 
 export default function Home() {
+    function getTools(){
+
+    }
   return (
     <div className="max-w-7xl mx-auto">
       {/* Hero Section */}
@@ -26,83 +29,83 @@ export default function Home() {
           description="Advanced JavaScript memoization playground with real-time performance analytics and optimization suggestions."
           icon={Code2}
           gradient="rgba(0, 242, 255, 0.15)"
-          status="Active"
+          status="Coming Soon"
           size="large"
         >
           <CodePreview />
         </ToolCard>
 
-        <ToolCard
-          title="Logic Simulator"
-          description="Design and simulate digital circuits with an interactive gate-level editor and timing analysis."
-          icon={Cpu}
-          gradient="rgba(188, 19, 254, 0.15)"
-          status="Ready"
-        >
-          <div className="flex items-center justify-center h-24 rounded-lg border border-purple-500/20 bg-purple-950/20">
-            <div className="flex gap-2">
-              <div className="w-12 h-12 rounded-lg bg-purple-500/20 border border-purple-400/30 flex items-center justify-center">
-                <div className="w-6 h-6 rounded border-2 border-purple-400" />
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="w-8 h-1.5 rounded-full bg-purple-400/40" />
-                <div className="w-8 h-1.5 rounded-full bg-purple-400/40" />
-              </div>
-              <div className="w-12 h-12 rounded-lg bg-purple-500/20 border border-purple-400/30 flex items-center justify-center">
-                <div className="w-6 h-6 rounded-full border-2 border-purple-400" />
-              </div>
-            </div>
-          </div>
-        </ToolCard>
+        {/*<ToolCard*/}
+        {/*  title="Logic Simulator"*/}
+        {/*  description="Design and simulate digital circuits with an interactive gate-level editor and timing analysis."*/}
+        {/*  icon={Cpu}*/}
+        {/*  gradient="rgba(188, 19, 254, 0.15)"*/}
+        {/*  status="Ready"*/}
+        {/*>*/}
+        {/*  <div className="flex items-center justify-center h-24 rounded-lg border border-purple-500/20 bg-purple-950/20">*/}
+        {/*    <div className="flex gap-2">*/}
+        {/*      <div className="w-12 h-12 rounded-lg bg-purple-500/20 border border-purple-400/30 flex items-center justify-center">*/}
+        {/*        <div className="w-6 h-6 rounded border-2 border-purple-400" />*/}
+        {/*      </div>*/}
+        {/*      <div className="flex flex-col gap-2">*/}
+        {/*        <div className="w-8 h-1.5 rounded-full bg-purple-400/40" />*/}
+        {/*        <div className="w-8 h-1.5 rounded-full bg-purple-400/40" />*/}
+        {/*      </div>*/}
+        {/*      <div className="w-12 h-12 rounded-lg bg-purple-500/20 border border-purple-400/30 flex items-center justify-center">*/}
+        {/*        <div className="w-6 h-6 rounded-full border-2 border-purple-400" />*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</ToolCard>*/}
 
-        <ToolCard
-          title="Shader Lab"
-          description="WebGL shader development environment with live preview, GLSL syntax highlighting, and GPU profiling."
-          icon={Sparkles}
-          gradient="rgba(168, 85, 247, 0.15)"
-          status="Beta"
-        >
-          <div
-            className="h-24 rounded-lg border border-purple-500/20 overflow-hidden"
-            style={{
-              background: 'linear-gradient(45deg, rgba(0, 242, 255, 0.2), rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2))',
-              animation: 'gradient 3s ease infinite',
-              backgroundSize: '200% 200%'
-            }}
-          />
-        </ToolCard>
+      {/*  <ToolCard*/}
+      {/*    title="Shader Lab"*/}
+      {/*    description="WebGL shader development environment with live preview, GLSL syntax highlighting, and GPU profiling."*/}
+      {/*    icon={Sparkles}*/}
+      {/*    gradient="rgba(168, 85, 247, 0.15)"*/}
+      {/*    status="Beta"*/}
+      {/*  >*/}
+      {/*    <div*/}
+      {/*      className="h-24 rounded-lg border border-purple-500/20 overflow-hidden"*/}
+      {/*      style={{*/}
+      {/*        background: 'linear-gradient(45deg, rgba(0, 242, 255, 0.2), rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2))',*/}
+      {/*        animation: 'gradient 3s ease infinite',*/}
+      {/*        backgroundSize: '200% 200%'*/}
+      {/*      }}*/}
+      {/*    />*/}
+      {/*  </ToolCard>*/}
 
-        <ToolCard
-          title="API Tester"
-          description="REST & GraphQL endpoint testing with automated mock generation and response validation."
-          icon={Database}
-          gradient="rgba(34, 211, 238, 0.15)"
-          status="Active"
-        />
+      {/*  <ToolCard*/}
+      {/*    title="API Tester"*/}
+      {/*    description="REST & GraphQL endpoint testing with automated mock generation and response validation."*/}
+      {/*    icon={Database}*/}
+      {/*    gradient="rgba(34, 211, 238, 0.15)"*/}
+      {/*    status="Active"*/}
+      {/*  />*/}
 
-        <ToolCard
-          title="Performance Monitor"
-          description="Real-time application metrics, memory profiling, and bundle size analysis dashboard."
-          icon={Zap}
-          gradient="rgba(250, 204, 21, 0.15)"
-          status="Active"
-        />
+      {/*  <ToolCard*/}
+      {/*    title="Performance Monitor"*/}
+      {/*    description="Real-time application metrics, memory profiling, and bundle size analysis dashboard."*/}
+      {/*    icon={Zap}*/}
+      {/*    gradient="rgba(250, 204, 21, 0.15)"*/}
+      {/*    status="Active"*/}
+      {/*  />*/}
 
-        <ToolCard
-          title="Terminal Plus"
-          description="Enhanced terminal emulator with command history, custom themes, and integrated AI assistance."
-          icon={Terminal}
-          gradient="rgba(52, 211, 153, 0.15)"
-          status="Coming Soon"
-        />
+      {/*  <ToolCard*/}
+      {/*    title="Terminal Plus"*/}
+      {/*    description="Enhanced terminal emulator with command history, custom themes, and integrated AI assistance."*/}
+      {/*    icon={Terminal}*/}
+      {/*    gradient="rgba(52, 211, 153, 0.15)"*/}
+      {/*    status="Coming Soon"*/}
+      {/*  />*/}
       </div>
 
       {/* Stats Footer */}
       <div className="mt-12 grid grid-cols-4 gap-4">
         {[
-          { label: 'Active Sessions', value: '1,247', color: 'cyan' },
-          { label: 'Tools Available', value: '12', color: 'purple' },
-          { label: 'Uptime', value: '99.9%', color: 'emerald' },
+          // { label: 'Active Sessions', value: '1,247', color: 'cyan' },
+          { label: 'Tools Available', value: '1', color: 'purple' },
+          // { label: 'Uptime', value: '99.9%', color: 'emerald' },
           { label: 'Performance', value: 'Optimal', color: 'cyan' }
         ].map((stat) => (
           <div

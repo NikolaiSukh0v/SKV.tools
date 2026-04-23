@@ -1,6 +1,6 @@
 export default function Login(){
     const ifAdmin = ()=>{
-        
+
     }
     return(
         <div>

@@ -30,7 +30,7 @@ export default function Header() {
             Portfolio
           </a>
           <button className="px-4 py-2 rounded-lg bg-gradient-to-r from-cyan-500/20 to-purple-600/20 border border-purple-500/30 text-white hover:from-cyan-500/30 hover:to-purple-600/30 transition-all duration-300 backdrop-blur-sm text-sm font-mono">
-            Docs
+            Login
           </button>
         </div>
       </div>

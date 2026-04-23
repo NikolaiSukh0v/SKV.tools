@@ -4,10 +4,10 @@ export default function Sidebar() {
   const navItems = [
     { icon: Home, label: 'Dashboard', active: true },
     { icon: Code2, label: 'JS.memo', href: '#jsmemo' },
-    { icon: Cpu, label: 'Logic Sim', href: '#logic' },
-    { icon: Sparkles, label: 'Shader Lab', href: '#shader' },
-    { icon: Grid3x3, label: 'All Tools', href: '#tools' },
-    { icon: Settings, label: 'Settings', href: '#settings' },
+    // { icon: Cpu, label: 'Logic Sim', href: '#logic' },
+    // { icon: Sparkles, label: 'Shader Lab', href: '#shader' },
+    // { icon: Grid3x3, label: 'All Tools', href: '#tools' },
+    // { icon: Settings, label: 'Settings', href: '#settings' },
   ];
 
   return (
