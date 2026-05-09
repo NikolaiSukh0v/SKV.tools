@@ -26,7 +26,7 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-6 auto-rows-[280px]">
         <ToolCard
           title="JS.memo"
-          description="Advanced JavaScript memoization playground with real-time performance analytics and optimization suggestions."
+          description="Advanced JavaScript learning platform with playground and tests."
           icon={Code2}
           gradient="rgba(0, 242, 255, 0.15)"
           status="Coming Soon"

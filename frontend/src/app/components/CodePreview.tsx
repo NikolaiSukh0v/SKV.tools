@@ -19,7 +19,7 @@ export default function CodePreview() {
         <div className="w-3 h-3 rounded-full bg-red-500/60" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
         <div className="w-3 h-3 rounded-full bg-emerald-500/60" />
-        <span className="ml-2 text-xs text-zinc-500 font-mono">memoize.js</span>
+        <span className="ml-2 text-xs text-zinc-500 font-mono">learn.js</span>
       </div>
 
       {/* Code content */}

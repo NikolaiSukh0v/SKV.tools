@@ -9,6 +9,10 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
+    dedupe: ['react-router-dom'], // Dedupe react-router-dom
+  },
+  optimizeDeps: {
+    exclude: ['react-router-dom'], // Exclude react-router-dom from pre-bundling
   },
   server: {
     watch: {
